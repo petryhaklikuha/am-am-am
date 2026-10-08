@@ -15,17 +15,17 @@
   <meta property="og:description" content="Бережное психологическое консультирование без давления и готовых советов. Офлайн в Минске.">
   <meta property="og:image" content="assets/elena.jpg">
   <meta property="og:locale" content="ru_RU">
-  <link rel="canonical" href="https://example.com/">
+  <link rel="canonical" href="https://nitipsychology.by/">
 
-
+<link rel="stylesheet" href="./css/style.css">
   <script type="application/ld+json">
   {
-    "@context":"https://nitipsychology.by/",
+    "@context":"https://schema.org",
     "@type":"ProfessionalService",
     "name":"Елена — психолог",
     "description":"Индивидуальное психологическое консультирование в Минске в методе когнитивно-поведенческой терапии и арт-терапия.",
-    "url":"https://example.com/",
-    "image":"assets/elena.jpg",
+    "url":"https://nitipsychology.by/",
+    "image":"img/1790932871620.jpeg",
     "priceRange":"90 BYN",
     "areaServed":{"@type":"City","name":"Минск"},
     "serviceType":["Психологическое консультирование","Когнитивно-поведенческая терапия","Арт-терапия"],
@@ -278,15 +278,16 @@
               <div class="field">
                   <label for="phone">Телефон</label>
 
-                  <input
-                      id="phone"
-                      name="phone"
-                      type="tel"
-                      autocomplete="tel"
-                      required
-                      pattern="\+375\s?\(?\d{2}\)?\s?\d{3}[- ]?\d{2}[- ]?\d{2}"
-                      placeholder="+375 (__) ___-__-__"
-                  >
+              <input
+                  id="phone"
+                  name="phone"
+                  type="tel"
+                  autocomplete="tel"
+                  required
+                  pattern="\+375\s?\((25|29|33|44)\)\s?\d{3}[- ]?\d{2}[- ]?\d{2}"
+                  title="Введите номер в формате +375 (29) 123-45-67"
+                  placeholder="+375 (29) 123-45-67"
+              >
               </div>
 
           </div>
@@ -316,7 +317,7 @@
               <label for="website">Не заполняйте это поле</label>
               <input
                   id="website"
-                  name="website"
+                  name="_gotcha"
                   type="text"
                   tabindex="-1"
                   autocomplete="off"
@@ -369,5 +370,6 @@
     <div><strong>Контакты</strong><br><a href="tel:+375291350860">+375291350860</a><br><a href="https://www.instagram.com/niti_psychology_minsk?stkn=MTJlNjE5MDV1OGsyaA%3D%3D">@niti_psychology_minsk</a></div>
   </div>
 </footer>
+<script src="main.js" ></script>
 </body>
 </html>
